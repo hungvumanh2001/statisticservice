@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import jmaster.io.statisticservice.model.StatisticDTO;
-import jmaster.io.statisticservice.service.StatisticService;
+import com.example.statisticservice.model.StatisticDTO;
+import com.example.statisticservice.service.StatisticService;
 
 @RestController
 public class StatisticController {

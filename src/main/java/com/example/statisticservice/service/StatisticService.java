@@ -8,9 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import jmaster.io.statisticservice.entity.Statistic;
-import jmaster.io.statisticservice.model.StatisticDTO;
-import jmaster.io.statisticservice.repository.StatisticRepository;
+import com.example.statisticservice.entity.Statistic;
+import com.example.statisticservice.model.StatisticDTO;
+import com.example.statisticservice.repository.StatisticRepository;
 
 public interface StatisticService {
     void add(StatisticDTO statisticDTO);
